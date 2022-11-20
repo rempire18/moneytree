@@ -8,6 +8,10 @@
     border: 0;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
 /* LOGO */
 
 #logo {
@@ -72,20 +76,19 @@
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(12, 244, 97, 0.7);
-
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 
+}
+
+h4 {
+    font-weight: 100;
 }
 
 section {
@@ -94,11 +97,17 @@ section {
 
 /* TESTIMONIALS */
 
+.column {
+    background-color:#c8f5af;
+    width: 50%;
+}
+
+
 #testimonials-title {
     padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 280%;
-    margin-bottom: 40px;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -109,9 +118,7 @@ section {
 
 .testimonials {
     text-align: center;
-    padding-bottom: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 40px;
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
     color: #307f06;

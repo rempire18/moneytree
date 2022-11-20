@@ -123,10 +123,6 @@ section {
 
 /* TESTIMONIALS */
 
-.column {
-    background-color:#c8f5af;
-    width: 50%;
-}
 
 
 #testimonials-title {
@@ -144,7 +140,7 @@ section {
 
 .testimonials {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
     font-family: Oswald, sans-serif;
     letter-spacing: 2px;
     color: #307f06;
@@ -156,7 +152,7 @@ footer {
     padding-top: 5px;
     text-align: center;
     width: 100%;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     right: 0;
     z-index: 3;
@@ -175,4 +171,57 @@ footer>a {
 
 footer>p {
     color: silver;
+    font-size: small;
+}
+
+/* media screen */
+
+@media screen and (max-width: 943px){
+
+    #header-menu{
+        clear: left;
+        float: left;
+        margin-left: 30px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 90%;
+        font-weight: 400;
+
+    }
+
+    #footer {
+        position: sticky;
+        bottom: 0;              
+     }
+}
+
+@media screen and (max-width: 600px){
+
+    #logo {
+        color: #1a4702;
+    }
+
+    #header-menu{
+        clear: left;
+        float: left;
+        margin-left: 5px; 
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 65%;
+        font-weight: 100;
+        letter-spacing: 0;
+        color:#1a4702;
+    }
+
+    hi {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .testimonials-title {
+        font-size: 20%;
+    }
+    
+
+
 }

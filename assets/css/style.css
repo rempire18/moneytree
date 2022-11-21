@@ -89,7 +89,6 @@ h1 {
     background: url("../images/money-tree.jpg") no-repeat center center;
     background-size: cover;
 
-
 }
 
 #cover-text,
@@ -112,6 +111,52 @@ h1 {
     position: absolute;
 
 }
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+  }
+
+/* for moneytree page */
+
+#left-cover-text{
+    border-radius: 10%;
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(12, 244, 97, 0.7);
+    bottom: 30px;
+    left: 150px;
+    position: absolute;
+
+}
+
+#right-cover-text {
+    border-radius: 10%;
+    font-size: 130%;
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 250px;
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(12, 244, 97, 0.7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
+}
+   
 
 h4 {
     font-weight: 100;
@@ -225,3 +270,26 @@ footer>p {
 
 
 }
+
+/* style for moneytree page text */
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 1px solid #c1f0c5;
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    height: 60%;
+    bottom: 30%;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+

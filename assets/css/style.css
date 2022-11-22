@@ -97,6 +97,7 @@ h1 {
 }
 
 #cover-text {
+    border-radius: 25%;
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
@@ -114,7 +115,7 @@ h1 {
 
 
 
-/* for moneytree page */
+/* for moneytrees.html */
 
 #left-cover-text {
     text-decoration: none;
@@ -239,6 +240,9 @@ section {
     letter-spacing: 2px;
     color: #307f06;
 }
+
+/* for signup.html */
+
 
 /* FOOTER */
 footer {

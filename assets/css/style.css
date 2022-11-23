@@ -12,34 +12,68 @@ h1 {
     margin-bottom: 0;
 }
 
+header {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    padding-top: 15px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -85px;
+    posit/ion: sticky;
+    height: 65px;
+    top: 0
+    
+}
+
+header a {
+    text-decoration: none;
+
+}
+
 /* LOGO */
 
 #logo {
-    float: left;
+    height:fit-content;
+    width: 300px;
+    padding: 15px;
     font-size: 280%;
     margin-left: 30px;
-    font-family: Oswald, sans-serif;
+    border-radius: 15%;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #c8f5af;
+    letter-spacing: 5px;
+    color: #ecfdee;
+    text-align: center;
+    back/ground: #6ee45cbd;
+    background-color: rgba(12, 244, 97, 0.3);
+    
 }
 
 /* HEADER */
 
 #header-menu {
-    margin-bottom: 0;
+    height: 40px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    background: #ffffffbd;
+    border-radius: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    justify-content: center;   
+    list-style: none;
+    margin: 15px 10px 50px 20px;
+    padding: 0 50px;
+   
 }
 
 #header-menu li {
-    padding-top: 10px;
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
-
 }
 
 #header-menu a {
@@ -55,65 +89,228 @@ h1 {
     border-bottom: 1px solid #1a4702;
 }
 
-/* Hover animation from 30secondcode*/
-
-.hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: #307f06;
-}
-
-.hover-underline-animation::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #307f06;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 
 /* money image and cover text */
+
+#money-pic {
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
 
 #money-image {
     height: 700px;
     width: 100%;
     background: url("../images/money-tree.jpg") no-repeat center center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
 #cover-text,
 #cover-text h2 {
     color: #ffffff;
+    
 }
 
 #cover-text {
-    border-radius: 25%;
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 300px;
-    height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    height: 150px;
     background-color: rgba(12, 244, 97, 0.7);
+    padding-top: 25px;
+    padding-left: 10px;
+    border-radius: 15%;
     bottom: 30px;
-    right: 150px;
+    right: 50px;
     position: absolute;
+}
+
+#cover-text h4{
+    text-transform: none;
+
+}
+
+/* Testimonials heading */
+
+#testimonials-title {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    margin: 0;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 300%;
+    font-weight: lighter;
+    color: #307f06;
+
+}
+
+/* testimonials column source at devto */
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+  }
+  
+  .blue-column {
+    background-color: rgba(51, 100, 235, 0.5);
+    height:fit-content;
+  }
+  
+  .green-column {
+    background-color: rgba(12, 244, 97, 0.5);
+    height:fit-content;
+  }
+
+  .column h2 {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 250%;
+    color: #307f06;
+
+  }
+
+  .column> h2, p{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 150%;
+    c/olor: #1a4702;
+    color: #ffffff;
+
+  }
+  
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #307f06;
+    height: 90px;
+}
+.social-media {
+    padding-top: 5px;
+    text-align: center;
+}
+.social-media li {
+    display: inline;
+
+}
+
+.social-media i{
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 10px 15px;
+    margin-right: 3%;
 
 }
 
 
+/* media screen */
+
+@media screen and (max-width: 1393px) {}
+
+@media screen and (max-width: 943px) {
+
+    #header-menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 90%;
+        font-weight: 400;
+
+    }
+
+    #footer {
+        position: sticky;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #logo {
+        color: #1a4702;
+    }
+
+    #header-menu {
+        clear: left;
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 65%;
+        font-weight: 100;
+        letter-spacing: 0;
+        color: #1a4702;
+    }
+
+    h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .testimonials-title {
+        font-size: 20%;
+    }
+
+
+
+}
+
+/* style for moneytree  */
+
+.b/g-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 1px solid #c1f0c5;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    height: 60%;
+    bottom: 30%;
+    padding: 20px;
+    text-align: center;
+
+}
 
 /* for moneytrees.html */
 
@@ -212,140 +409,28 @@ section {
     background-color: #c8f5af;
 }
 
-/* TESTIMONIALS */
+/* Hover animation from 30secondcode*/
 
-#testimony {
-    height: 600px;
-
-}
-
-
-#testimonials-title {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    font-size: 280%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #307f06;
-
-}
-
-
-.testimonials {
-    text-align: center;
-    padding-bottom: 100px;
-    font-family: Oswald, sans-serif;
-    letter-spacing: 2px;
-    color: #307f06;
-}
-
-/* for signup.html */
-
-
-/* FOOTER */
-footer {
-    background-color: #307f06;
-    height: 70px;
-}
-.social-media {
-    text-align: center;
-}
-.social-media li {
-    display: inline;
-
-}
-
-.social-media i{
-    color: whitesmoke;
-    font-size: 30px;
-    padding: 10px 15px;
-    margin-right: 3%;
-
-}
-
-.social-media p {
-    color: silver;
-    font-size: small;
-}
-
-
-
-/* media screen */
-
-@media screen and (max-width: 1393px) {}
-
-@media screen and (max-width: 943px) {
-
-    #header-menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: 90%;
-        font-weight: 400;
-
-    }
-
-    #footer {
-        position: sticky;
-        bottom: 0;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    #logo {
-        color: #1a4702;
-    }
-
-    #header-menu {
-        clear: left;
-        float: left;
-        margin-left: 5px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: 65%;
-        font-weight: 100;
-        letter-spacing: 0;
-        color: #1a4702;
-    }
-
-    h1 {
-        padding: 0;
-        margin: 0;
-        text-align: center;
-    }
-
-    .testimonials-title {
-        font-size: 20%;
-    }
-
-
-
-}
-
-/* style for moneytree page text */
-
-.bg-text {
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    border: 1px solid #c1f0c5;
+.hover-underline-animation {
+    display: inline-block;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 90%;
-    height: 60%;
-    bottom: 30%;
-    padding: 20px;
-    text-align: center;
+    color: #307f06;
+}
 
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #307f06;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

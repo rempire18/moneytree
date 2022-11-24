@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-/* neutralise margin padding border*/
-
 * {
     margin: 0;
     padding: 0;
@@ -96,7 +94,7 @@ header a {
 }
 
 
-/* money image and cover text */
+/* MONEY-IMAGE/COVER-TEXT*/
 
 #money-pic {
     height: 600px;
@@ -142,6 +140,71 @@ header a {
 
 }
 
+/* THE MONEY TREES */
+
+#moneytrees-title {
+    
+
+}
+
+#moneytrees-title {
+    font-family: 'Oswald', sans-serif;
+    padding: 30px;
+    margin: 0;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: lighter;
+    color: #307f06;
+    background-color: #1a4702;
+}
+
+#moneytrees-title h1{
+    font-size: 300%;
+    padding-bottom: 50px;
+    color: #98e118;
+
+}
+
+
+hr {
+    color: #e4ed34;
+    background-color: #e4ed34;
+    height: 3px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+#moneytrees-title a{
+    text-decoration: none;
+    color: #4fcf0a;;
+    padding-top: 30px;
+    font-size: 150%;
+    text-transform: none;
+}
+
+#moneytrees-title a:hover{
+
+    color: #4fc111;
+}
+
+#moneytrees-title p{
+    color: #4fc111;
+    font-size: 100%;
+    letter-spacing: normal;
+    padding-bottom: 50px;
+    text-transform: lowercase;
+   
+
+}
+
+
+
+
+
 /* Testimonials heading */
 
 #testimonials-title {
@@ -184,12 +247,12 @@ header a {
 }
 
 .blue-column {
-    background-color: rgba(51, 100, 235, 0.5);
+    background-color: rgba(37, 74, 178, 0.7);
     height: fit-content;
 }
 
 .green-column {
-    background-color: rgba(12, 244, 97, 0.5);
+    background-color: rgba(29, 136, 40, 0.7);
     height: fit-content;
 }
 
@@ -199,7 +262,7 @@ header a {
     margin: 0;
     text-align: center;
     font-size: 250%;
-    color: #307f06;
+    color: #8af74f;
 
 }
 
@@ -385,7 +448,7 @@ section {
 /* FOOTER */
 
 footer {
-    background-color: rgba(1, 37, 15, 0.7);
+    background-color: rgb(14, 64, 5);
     height: 90px;
     
 }
@@ -567,5 +630,4 @@ footer {
 section {
     background-color: #c8f5af;
 }
-
 

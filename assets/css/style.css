@@ -110,6 +110,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 
 }
 
@@ -130,7 +131,7 @@ header a {
     padding-top: 25px;
     padding-left: 10px;
     border-radius: 15%;
-    bottom: 30px;
+    bottom: 60px;
     right: 50px;
     position: absolute;
 }
@@ -139,6 +140,8 @@ header a {
     text-transform: none;
 
 }
+
+/* DRAFT FOR MONEy TREES */
 
 /* THE MONEY TREES */
 
@@ -166,7 +169,7 @@ header a {
 hr {
     color: #e4ed34;
     background-color: #e4ed34;
-    height: 3px;
+    height: 2px;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -180,10 +183,8 @@ hr {
     font-size: 150%;
     text-transform: none;
 }
-
-#moneytrees-title a:hover{
-
-    color: #4fc111;
+a {
+    color: #fafafa;
 }
 
 #moneytrees-title p{
@@ -196,11 +197,13 @@ hr {
 
 }
 
-
-
-
-
 /* Testimonials heading */
+
+#testimony {
+    background-color: #e4ed34;
+    
+
+}
 
 #testimonials-title {
     font-family: 'Oswald', sans-serif;
@@ -224,6 +227,7 @@ hr {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 20px;
+    
 
 }
 
@@ -243,12 +247,19 @@ hr {
 
 .blue-column {
     background-color: rgba(37, 74, 178, 0.7);
-    height: fit-content;
+    height: 400px;
+    width: 400px;
+    margin-right: 1px;
+    margin-bottom: 20px;
+    margin-left: auto;
 }
 
 .green-column {
-    background-color: rgba(29, 136, 40, 0.7);
-    height: fit-content;
+    background-color: rgba(29, 136, 40, 0.9);
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-right: auto;
 }
 
 .column h2 {
@@ -257,7 +268,7 @@ hr {
     margin: 0;
     text-align: center;
     font-size: 250%;
-    color: #8af74f;
+    color: #e4ed34;
 
 }
 
@@ -272,105 +283,7 @@ hr {
 }
 
 
-/* moneytree.html */
-
-#left-cover-text {
-    text-decoration: none;
-    border-radius: 10%;
-    font-size: 130%;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    width: 250px;
-    height: 250px;
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: rgba(12, 244, 97, 0.4);
-    color: #1a4702;
-    bottom: 30px;
-    left: 150px;
-    position: absolute;
-
-}
-
-#center-cover-text {
-    text-decoration: none;
-    width: 250px;
-    height: 300px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -130px;
-    border-radius: 10%;
-    font-size: 130%;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: rgba(12, 244, 97, 0.4);
-    color: #1a4702;
-    bottom: 30px;
-    position: absolute;
-}
-
-
-#right-cover-text {
-    text-decoration: none;
-    border-radius: 10%;
-    font-size: 130%;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    width: 250px;
-    height: 250px;
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: rgba(12, 244, 97, 0.4);
-    color: #1a4702;
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
-
-}
-
-#left-cover-text a {
-    text-decoration: none;
-    color: #1a4702;
-}
-
-#center-cover-text a {
-    text-decoration: none;
-    color: #1a4702;
-}
-
-#right-cover-text a {
-    text-decoration: none;
-    color: #1a4702;
-}
-
-#left-cover-text h4 {
-    font-weight: lighter;
-    text-transform: none;
-    color: #1a4702;
-}
-
-#center-cover-text h4 {
-    font-weight: lighter;
-    text-transform: none;
-    color: #ffffff;
-}
-
-#right-cover-text h4 {
-    font-weight: lighter;
-    text-transform: none;
-}
-
-
-section {
-    background-color: #c8f5af;
-}
-
-
- /* Form */
+ /* FORM */
 
  .form-section {
     clear: left;
@@ -380,14 +293,14 @@ section {
     height: 600px;
     font-family: Oswald;
     letter-spacing: 4px;
-    margin-bottom: 20px;
+    margin: 0;
     overflow: hidden;
-}
+} 
 
 .signup-form {
     border-radius: 15px;
     margin-top: 200px;
-    color: #fff;
+    color: #e4ed34;
     background-color: rgba(9, 58, 33, 0.7);
     max-width: 400px;
     position: absolute;
@@ -397,7 +310,7 @@ section {
 }   
   
 .signup-form h2 {
-    color: #fafafa;
+    color: #e4ed34;
     margin-bottom: 20px;
      
  }
@@ -426,7 +339,7 @@ section {
         text-align: center;
         font-size: 100%;
         background-color: #034606;
-        color: #fafafa;
+        color: #e4ed34;
         /*positions the button below the radio buttons*/
         display: block;
     }
@@ -435,9 +348,6 @@ section {
         background-color: #fafafa;
         color: #034606;
     }
- 
-
-    
  
 
 /* FOOTER */
@@ -449,7 +359,8 @@ footer {
 }
 
 .social-media {
-    padding-top: 5px;
+    margin: 0;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -458,7 +369,8 @@ footer {
 
 }
 
-.social-media i {
+.social-media i
+{
     color: whitesmoke;
     font-size: 40px;
     padding: 10px 15px;
@@ -468,15 +380,53 @@ footer {
 
 .social-media i:hover{
     color: rgb(225, 239, 72);
+    transform: rotate(-5deg) scale(.9);
     font-size: 45px;
 
 } 
 
+.social-media a{
+    color: whitesmoke;
+    font-size: 14px;
+    padding-left: 60px;
+  
+
+}
 
 
-/* media screen */
 
-@media screen and (max-width: 1393px) {}
+
+
+
+/* MEDIA QUERRIES */
+
+@media screen and (max-width: 1200px){
+    
+
+    #logo {
+        height: fit-content;
+        width: 300px;
+        padding: 15px;
+        font-size: 280%;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 50%;
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        color: #ecfdee;
+        text-align: center;
+        background-color: #034606bd;
+    
+    }
+
+   
+
+    hr {
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 943px) {
 
@@ -497,132 +447,84 @@ footer {
     }
 }
 
+@media screen and (max-width: 769px){
+    header{
+        flex-direction: column;
+        margin-bottom: -125px;
+    }
+    #header-menu{
+        background-color: rgba(29, 136, 40, 0.3);
+    }
+}
+
+
 @media screen and (max-width: 600px) {
 
     #logo {
-        color: #1a4702;
+        color: #e4ed34;
+        justify-content: center;
     }
 
-    #header-menu {
-        clear: left;
-        float: left;
-        margin-left: 5px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: 65%;
+    #header-menu{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;  
+        height: 100%;     
+        font-size: 16px;
         font-weight: 100;
         letter-spacing: 0;
+        background: none;
+    }
+
+    #header-menu a {
+        text-decoration: none;
         color: #1a4702;
     }
 
-    h1 {
-        padding: 0;
-        margin: 0;
-        text-align: center;
+    #cover-text {
+        display: none;
     }
 
-    .testimonials-title {
-        font-size: 20%;
+    #moneytrees-title {
+        letter-spacing: 0;
+
+    }
+
+    #testimonials-title {
+        letter-spacing: 0;
+
+    }
+
+    .signup-form {
+        margin-top: 250px;
+        margin-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 55%;
+
+    }
+
+    .signup-form h2 {
+        display: none;
     }
 
 
 
-}
+    footer {
+        background-color: rgb(14, 64, 5);
+        height: fit-content;
+        
+    }
+
+    .social-media li {
+        display: block;
+    
+    }
 
 
-/* for moneytrees.html */
-
-#left-cover-text {
-    text-decoration: none;
-    border-radius: 10%;
-    font-size: 130%;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    width: 250px;
-    height: 250px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(12, 244, 97, 0.4);
-    color: #1a4702;
-    bottom: 30px;
-    left: 150px;
-    position: absolute;
-}
-
-#center-cover-text {
-    text-decoration: none;
-    width: 250px;
-    height: 250px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -130px;
-    border-radius: 10%;
-    font-size: 130%;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(12, 244, 97, 0.4);
-    color: #1a4702;
-    bottom: 30px;
-    position: absolute;
-}
 
 
-#right-cover-text {
-    text-decoration: none;
-    border-radius: 10%;
-    font-size: 130%;
-    font-family: Oswald;
-    letter-spacing: 2px;
-    width: 250px;
-    height: 250px;
-    padding-top: 40px;
-    padding-left: 10px;
-    background-color: rgba(12, 244, 97, 0.4);
-    color: #1a4702;
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
-
-}
-
-#left-cover-text a {
-    text-decoration: none;
-    color: #1a4702;
-}
-
-#center-cover-text a {
-    text-decoration: none;
-    color: #1a4702;
-}
-
-#right-cover-text a {
-    text-decoration: none;
-    color: #1a4702;
-}
-
-#left-cover-text h4 {
-    font-weight: lighter;
-    text-transform: none;
-    color: #1a4702;
-}
-
-#center-cover-text h4 {
-    font-weight: lighter;
-    text-transform: none;
-    color: #1a4702;
-}
-
-#right-cover-text h4 {
-    font-weight: lighter;
-    text-transform: none;
-}
 
 
-section {
-    background-color: #c8f5af;
-}
 

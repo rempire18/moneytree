@@ -20,7 +20,6 @@ header {
     margin-bottom: -85px;
     height: 65px;
     top: 0
-
 }
 
 header a {
@@ -48,7 +47,7 @@ header a {
 
 #logo:hover {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 
 }
 
@@ -158,7 +157,7 @@ header a {
     background-color: #1a4702;
 }
 
-#moneytrees-title h1{
+#moneytrees-title h1 {
     font-size: 300%;
     padding-bottom: 50px;
     color: #98e118;
@@ -173,27 +172,29 @@ hr {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    }
+}
 
 
-#moneytrees-title a{
+#moneytrees-title a {
     text-decoration: none;
-    color: #4fcf0a;;
+    color: #4fcf0a;
+    ;
     padding-top: 30px;
     font-size: 150%;
     text-transform: none;
 }
+
 a {
     color: #fafafa;
 }
 
-#moneytrees-title p{
+#moneytrees-title p {
     color: #4fc111;
     font-size: 100%;
     letter-spacing: normal;
     padding-bottom: 50px;
     text-transform: lowercase;
-   
+
 
 }
 
@@ -201,7 +202,7 @@ a {
 
 #testimony {
     background-color: #e4ed34;
-    
+
 
 }
 
@@ -227,7 +228,7 @@ a {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 20px;
-    
+
 
 }
 
@@ -272,7 +273,8 @@ a {
 
 }
 
-.column>h2, p{
+.column>h2,
+p {
     font-family: 'Oswald', sans-serif;
     padding-bottom: 30px;
     margin: 0;
@@ -283,9 +285,9 @@ a {
 }
 
 
- /* FORM */
+/* FORM */
 
- .form-section {
+.form-section {
     clear: left;
     background: url("../images/money-tree.jpg") no-repeat center center;
     background-size: cover;
@@ -295,7 +297,7 @@ a {
     letter-spacing: 4px;
     margin: 0;
     overflow: hidden;
-} 
+}
 
 .signup-form {
     border-radius: 15px;
@@ -307,55 +309,55 @@ a {
     left: 10%;
     padding: 30px;
     height: 400px;
-}   
-  
+}
+
 .signup-form h2 {
     color: #e4ed34;
     margin-bottom: 20px;
-     
- }
- 
- .text-input {
-     background: transparent;
-     color: #fafafa;
-     width: 100%;
-     height: 25px;
-     margin: 5px 0 20px 0;
-     border: 1px solid #fafafa;
-     border-radius: 2px;
-     
- 
- }
- 
-    .text-input:hover {
-     border-color: #e4ed34;
-     background-color: #034606;
-    }
-    
-    .join-button {
-        margin-top: 1px;
-        border-radius: 15px;
-        padding: 15px 32px 15px 32px;
-        text-align: center;
-        font-size: 100%;
-        background-color: #034606;
-        color: #e4ed34;
-        /*positions the button below the radio buttons*/
-        display: block;
-    }
- 
-    .join-button:hover {
-        background-color: #fafafa;
-        color: #034606;
-    }
- 
+
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+
+
+}
+
+.text-input:hover {
+    border-color: #e4ed34;
+    background-color: #034606;
+}
+
+.join-button {
+    margin-top: 1px;
+    border-radius: 15px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #034606;
+    color: #e4ed34;
+    /*positions the button below the radio buttons*/
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #034606;
+}
+
 
 /* FOOTER */
 
 footer {
     background-color: rgb(14, 64, 5);
     height: 90px;
-    
+
 }
 
 .social-media {
@@ -369,8 +371,7 @@ footer {
 
 }
 
-.social-media i
-{
+.social-media i {
     color: whitesmoke;
     font-size: 40px;
     padding: 10px 15px;
@@ -378,18 +379,18 @@ footer {
 
 }
 
-.social-media i:hover{
+.social-media i:hover {
     color: rgb(225, 239, 72);
     transform: rotate(-5deg) scale(.9);
     font-size: 45px;
 
-} 
+}
 
-.social-media a{
+.social-media a {
     color: whitesmoke;
     font-size: 14px;
     padding-left: 60px;
-  
+
 
 }
 
@@ -400,8 +401,8 @@ footer {
 
 /* MEDIA QUERRIES */
 
-@media screen and (max-width: 1200px){
-    
+@media screen and (max-width: 1200px) {
+
 
     #logo {
         height: fit-content;
@@ -417,10 +418,10 @@ footer {
         color: #ecfdee;
         text-align: center;
         background-color: #034606bd;
-    
+
     }
 
-   
+
 
     hr {
         display: none;
@@ -447,12 +448,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 769px){
-    header{
+@media screen and (max-width: 769px) {
+    header {
         flex-direction: column;
         margin-bottom: -125px;
     }
-    #header-menu{
+
+    #header-menu {
         background-color: rgba(29, 136, 40, 0.3);
     }
 }
@@ -465,12 +467,12 @@ footer {
         justify-content: center;
     }
 
-    #header-menu{
+    #header-menu {
         display: block;
         justify-content: center;
         align-items: center;
-        width: 100%;  
-        height: 100%;     
+        width: 100%;
+        height: 100%;
         font-size: 16px;
         font-weight: 100;
         letter-spacing: 0;
@@ -514,17 +516,12 @@ footer {
     footer {
         background-color: rgb(14, 64, 5);
         height: fit-content;
-        
+
     }
 
     .social-media li {
         display: block;
-    
+
     }
-
-
-
-
-
-
-
+        
+}

@@ -55,9 +55,7 @@ header a {
 /* HEADER */
 
 #header-menu {
-    border-radius: 25%;
-    height: 45px;
-    width: 100%;
+    
     align-content: center;
     align-items: center;
     background-color: #034606bd;
@@ -170,7 +168,7 @@ header a {
     font-size: 200%;
     padding-bottom: 50px;
     letter-spacing: normal;
-    color: #e9efe5;
+    color: inherit;
     text-align: left;
 
 }
@@ -178,7 +176,7 @@ header a {
 #about-page-title p{
     font-size: 150%;
     padding-bottom: 50px;
-    color: #fafafa;
+    color: inherit;
     text-transform: lowercase;
     letter-spacing: normal;
 
@@ -291,7 +289,7 @@ p {
     background: url("../images/money-tree.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
     font-family: Oswald;
     letter-spacing: 4px;
     margin: 0;
@@ -458,11 +456,22 @@ footer {
         flex-direction: column;
         margin-bottom: -125px;
     }
-
     #header-menu {
-        background-color: rgba(29, 136, 40, 0);
-
+        margin-top: 20px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 0;
+        background: none;
     }
+
+    #header-menu a {
+        text-decoration: none;
+        color: #1a4702;
+    }
+
 
     #header-menu a {
         color: #4fcf0a;
@@ -473,9 +482,10 @@ footer {
         margin: 0 0 0 20%;
     }
 
-    .blue-column, .green-column {
-        height: fit-content;
-        width: 100%;
+    #logo {
+        color: #e4ed34;
+        justify-content: center;
+        margin-top: 0;
     }
 
 
@@ -550,3 +560,4 @@ footer {
     }
         
 }
+

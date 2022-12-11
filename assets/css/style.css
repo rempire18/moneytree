@@ -242,10 +242,17 @@ a {
 
 }
 
+
 /* Testimonials heading */
 
+.card-group {
+    margin: 20px;
+
+}
+
+
 #testimony {
-    background-color: #e4ed34;
+    background-color: #ffffff;
 
 
 }
@@ -259,65 +266,11 @@ a {
     text-transform: uppercase;
     font-size: 300%;
     font-weight: lighter;
-    color: #307f06;
+    color: #000100;
 
 }
 
-/* testimonials column source at devto */
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 20px;
-
-
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
-
-.double-column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 2;
-}
-
-.blue-column {
-    background-color: rgba(37, 74, 178, 0.7);
-    height: 400px;
-    width: 400px;
-    margin-right: 1px;
-    margin-bottom: 20px;
-    margin-left: auto;
-}
-
-.green-column {
-    background-color: rgba(29, 136, 40, 0.9);
-    height: 400px;
-    width: 400px;
-    margin-bottom: 20px;
-    margin-right: auto;
-}
-
-.column h2 {
-    font-family: 'Oswald', sans-serif;
-    padding: 30px;
-    margin: 0;
-    text-align: center;
-    font-size: 250%;
-    color: #e4ed34;
-
-}
-
-.column>h2,
+.card-body> i,
 p {
     font-family: 'Oswald', sans-serif;
     padding-bottom: 30px;
@@ -518,6 +471,7 @@ footer {
     }
 
     .blue-column, .green-column {
+        height: fit-content;
         width: 100%;
     }
 
@@ -560,6 +514,11 @@ footer {
     #testimonials-title {
         letter-spacing: 0;
 
+    }
+
+    .blue-column, .green-column {
+        height: 100%;
+        width: 100%;
     }
 
     .signup-form {

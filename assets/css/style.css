@@ -160,7 +160,7 @@ header a {
 #about-page-title h1 {
     font-size: 300%;
     padding-bottom: 50px;
-    color: #fafafa;
+    color: #edbc34;
 
 }
 
@@ -168,7 +168,7 @@ header a {
     font-size: 200%;
     padding-bottom: 50px;
     letter-spacing: normal;
-    color: inherit;
+    color: #ffffff;
     text-align: left;
 
 }
@@ -196,7 +196,6 @@ header a {
     text-transform: uppercase;
     font-size: 100%;
     font-weight: lighter;
-    color: #307f06;
     background-color: #000100;
 }
 
@@ -220,8 +219,7 @@ hr {
 
 #moneytrees-title a {
     text-decoration: none;
-    color: #4fcf0a;
-    ;
+    color: #edbc34;
     padding-top: 30px;
     font-size: 150%;
     text-transform: none;
@@ -232,7 +230,7 @@ a {
 }
 
 #moneytrees-title p {
-    color: #4fc111;
+    color: #98e118;
     font-size: 100%;
     letter-spacing: normal;
     padding-bottom: 50px;

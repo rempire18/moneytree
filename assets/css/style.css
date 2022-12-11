@@ -157,14 +157,15 @@ header a {
     background-color: #1a4702;
 }
 
-#about-page-title h1 {
+#about-page-title h2 {
     font-size: 300%;
     padding-bottom: 50px;
     color: #edbc34;
 
+
 }
 
-#about-page-title h2 {
+#about-page-title h3 {
     font-size: 200%;
     padding-bottom: 50px;
     letter-spacing: normal;
@@ -199,8 +200,8 @@ header a {
     background-color: #000100;
 }
 
-#moneytrees-title h1 {
-    font-size: 300%;
+#moneytrees-title h2 {
+    font-size: 200%;
     padding-bottom: 50px;
     color: #98e118;
 
@@ -214,15 +215,16 @@ hr {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-}
+}:
 
 
 #moneytrees-title a {
     text-decoration: none;
     color: #edbc34;
-    padding-top: 30px;
-    font-size: 150%;
+    padding: 0;
+    font-size: 100%;
     text-transform: none;
+    margin-bottom: 0;
 }
 
 a {
@@ -233,7 +235,8 @@ a {
     color: #98e118;
     font-size: 100%;
     letter-spacing: normal;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 0;
     text-transform: lowercase;
 
 
@@ -265,6 +268,11 @@ a {
     font-weight: lighter;
     color: #000100;
 
+}
+
+#testimonials-title-icon i, h2 {
+    color: #fff;
+    font-size: 150%;
 }
 
 .card-body> i,
